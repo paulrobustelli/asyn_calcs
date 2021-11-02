@@ -1,15 +1,3 @@
-#!/usr/bin/garden-exec
-#{
-#  # Load necessary garden modules before
-#  garden env-keep-only --user
-#  garden load msys/1.7.212c7/lib-python
-#  garden load saal/1.1.9c7/lib
-#  garden load saal/1.1.9c7/lib-python
-#  garden load Python/2.7.9-05st/lib 
-#  garden load zendo/2.0.74c7/lib-python
-#  python -- "$0" "$@"
-#}
-
 import sys
 import numpy
 from math import pi
